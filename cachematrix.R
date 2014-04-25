@@ -28,7 +28,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Returns the inverse of x (data should be set already). Uses cache if the inverse has already computed,
+## Returns the inverse of x (data should be set already). Uses cache if the inverse has already been computed,
 ## computes inverse and saves it to cache prior to returning it if the cache has been empty.
 cacheSolve <- function(x, ...) {
   
